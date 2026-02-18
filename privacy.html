@@ -12,6 +12,8 @@
         h2 { font-size: 1.5rem; color: #60a5fa; margin-top: 2rem; }
         p, li { color: #94a3b8; font-size: 1.1rem; }
         .highlight { color: #f8fafc; font-weight: 600; }
+        .warning-box { background: rgba(37, 99, 235, 0.1); border-left: 4px solid #2563eb; padding: 1.5rem; margin: 2rem 0; }
+        .warning-title { color: #60a5fa; font-weight: bold; display: block; margin-bottom: 0.5rem; }
         hr { border: 0; border-top: 1px solid #1e293b; margin: 3rem 0; }
         .footer { text-align: center; color: #475569; font-size: 0.875rem; padding-bottom: 2rem; }
         ul { padding-left: 1.2rem; }
@@ -20,29 +22,39 @@
 <body>
     <div class="container">
         <div class="badge">Lalapass Privacy Policy</div>
-        <h1>Privacy Policy</h1>
+        <h1>Our Privacy Philosophy</h1>
         
-        <p>Aila Squad ("we," "us," or "our") is committed to protecting your privacy. [cite: 2026-02-04] This Privacy Policy explains how your data is handled when you use <span class="highlight">lalapass</span>, our premier password management solution. [cite: 2026-02-04]</p>
+        <p>At <span class="highlight">Aila Squad</span>, we believe the best way to protect your data is not to have it at all. [cite: 2026-02-04] This policy explains how we keep <span class="highlight">lalapass</span> simple, secure, and entirely yours. [cite: 2025-12-18]</p>
 
-        <h2>1. Zero-Knowledge Principle</h2>
-        <p>Lalapass operates on a zero-knowledge basis. <span class="highlight">We do not collect, store, or have access to any of your passwords or personal data on our servers.</span> All information you enter into the app remains exclusively on your local device. [cite: 2026-02-18]</p>
+        <h2>1. No Servers, Just Privacy</h2>
+        <p>Lalapass is designed as a purely local application. [cite: 2026-02-18] <span class="highlight">We do not own or operate any servers to store your information.</span> [cite: 2026-02-04] Every password and note you save stays exactly where it belongs: on your own device. [cite: 2026-02-18]</p>
 
-        <h2>2. Advanced Encryption Standard</h2>
+        <h2>2. Military-Grade Security</h2>
         <ul>
-            <li>Your data is secured using <span class="highlight">AES-GCM 256-bit encryption</span>, a military-grade standard for data protection. [cite: 2026-02-18]</li>
-            <li>The master key required for decryption is stored only in your device's secure enclave. Aila Squad cannot retrieve or reset your master key if lost.</li>
+            <li>Your data is guarded by <span class="highlight">AES-GCM 256-bit encryption</span>, the gold standard for data protection. [cite: 2026-02-18]</li>
+            <li>Your master key is stored in your device's secure enclave. Because we don't have a server, even we couldn't access your data if we wanted to. [cite: 2026-02-04, 2026-02-18]</li>
         </ul>
 
-        <h2>3. Data Backup and Management</h2>
-        <p>Data backups are only performed via <span class="highlight">Apple iCloud's</span> secure environment if you explicitly enable this feature. We have no means of accessing your backup data stored in iCloud.</p>
+        <div class="warning-box">
+            <span class="warning-title">⚠️ Your Responsibility</span>
+            <p style="margin: 0; color: #f8fafc;">Since your master key is never transmitted to us, <span class="highlight">we have no way to recover or reset it for you.</span> Please keep your master key safe; if it is lost, your stored data will be permanently inaccessible. [cite: 2026-02-18]</p>
+        </div>
 
-        <h2>4. Data Minimization</h2>
-        <p>Since we do not collect your personal data, we do not sell, trade, or otherwise transfer your information to third parties for marketing or any other purposes. [cite: 2026-02-04]</p>
+        <h2>3. Your Data, Your Control</h2>
+        <p>We provide multiple ways to keep your data safe. You remain the sole owner and manager of your information.</p>
+        <ul>
+            <li><span class="highlight">Manual Backup & Restore:</span> You can export your encrypted database to the Files app, or share it via email and messengers for safekeeping.</li>
+            <li><span class="highlight">Encrypted Export:</span> Every backup file is protected by the same AES-GCM 256-bit encryption. [cite: 2026-02-18] Without your master key, these files remain unreadable even if shared.</li>
+            <li><span class="highlight">iCloud Sync:</span> Optional cloud backups are handled exclusively within Apple’s secure environment.</li>
+        </ul>
+
+        <h2>4. Zero Data Collection</h2>
+        <p>We don't collect your personal information, which means we have nothing to sell, trade, or share with anyone. It's that simple. [cite: 2026-02-04]</p>
 
         <hr>
         
-        <h2>Contact Us</h2>
-        <p>If you have any questions regarding this Privacy Policy, please contact us at:<br>
+        <h2>Questions?</h2>
+        <p>We're here to help if you have any questions about how we protect your digital life.<br>
         Email: <span class="highlight">support@ailasquad.com</span></p>
     </div>
 
